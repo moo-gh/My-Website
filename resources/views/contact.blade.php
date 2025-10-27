@@ -27,6 +27,9 @@
                 <b>English Name:</b> Mo
             </p>
             <p>
+                <b>Working at:</b> <a href="https://www.novosenso.com/">Novosenso</a>
+            </p>
+            <p>
                 <b>Academic Degree:</b> Master's degree in Computer Engineering from <a href="https://aut.ac.ir/en">Amirkabir University of Technology</a> (Tehran, Iran)
             </p>
             <p>
