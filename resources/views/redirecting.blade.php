@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('head')
-<meta http-equiv="refresh" content="1;url=/contact">
+<meta http-equiv="refresh" content="4;url=/contact">
 <style>
   .redirect-message {
     display: flex;
@@ -17,6 +17,13 @@
     color: #636e72;
     margin-bottom: 0.5rem;
   }
+  .redirect-message__countdown {
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #0984e3;
+    margin: 0.5rem 0;
+    min-height: 3rem;
+  }
   .redirect-message__link {
     font-size: 0.95rem;
   }
@@ -30,6 +37,9 @@
     .redirect-message {
       min-height: 50vh;
       padding: 2rem 1rem;
+    }
+    .redirect-message__countdown {
+      font-size: 3rem;
     }
     .redirect-message__link {
       font-size: 1.1rem;
@@ -45,6 +55,25 @@
 @section('content')
 <div class="redirect-message">
   <p class="redirect-message__text">Redirecting to contact...</p>
+  <div class="redirect-message__countdown" id="countdown">3</div>
   <a href="/contact" class="btn btn-link mt-2 redirect-message__link">Click here if you are not redirected</a>
 </div>
+@endsection
+
+@section('footer')
+<script>
+  (function () {
+    var el = document.getElementById('countdown');
+    var n = 3;
+    var interval = setInterval(function () {
+      n--;
+      if (n > 0) {
+        el.textContent = n;
+      } else {
+        clearInterval(interval);
+        window.location.href = '/contact';
+      }
+    }, 1000);
+  })();
+</script>
 @endsection
