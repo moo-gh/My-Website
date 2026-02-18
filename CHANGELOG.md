@@ -1,3 +1,12 @@
+# [1.5.0](https://github.com/moo-gh/My-Website/compare/v1.4.0...v1.5.0) (2026-03-08)
+
+
+### Features
+
+* **redirect:** add delay and countdown timer to redirecting view ([8d28546](https://github.com/moo-gh/My-Website/commit/8d28546f28a3fe7b69cf94427e4493f95738b53f))
+
+
+
 # [1.4.0](https://github.com/moo-gh/My-Website/compare/v1.3.0...v1.4.0) (2026-03-08)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * update email address ([89f3af0](https://github.com/moo-gh/My-Website/commit/89f3af0e0c400d1b2160d08f10416f8771ae26b3))
-
-
-
-# [1.1.0](https://github.com/moo-gh/My-Website/compare/v0.2.0...v1.1.0) (2022-11-11)
-
-
-### Features
-
-* increase main version ([1eb0cab](https://github.com/moo-gh/My-Website/commit/1eb0cab6ec1257f067eb01cca46dda34cc89c030))
 
 
 
