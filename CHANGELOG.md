@@ -1,3 +1,12 @@
+# [1.6.0](https://github.com/moo-gh/My-Website/compare/v1.5.0...v1.6.0) (2026-03-08)
+
+
+### Features
+
+* **contact:** implement multilingual support with language toggle on contact page ([3ce6048](https://github.com/moo-gh/My-Website/commit/3ce6048bf608661aa67761eb6aba00b0bb57de56))
+
+
+
 # [1.5.0](https://github.com/moo-gh/My-Website/compare/v1.4.0...v1.5.0) (2026-03-08)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * add deploy action ([13fdb90](https://github.com/moo-gh/My-Website/commit/13fdb903f20b6d00e6caba30927caf70d420583d))
-
-
-
-## [1.1.1](https://github.com/moo-gh/My-Website/compare/v1.1.0...v1.1.1) (2022-11-13)
-
-
-### Bug Fixes
-
-* update email address ([89f3af0](https://github.com/moo-gh/My-Website/commit/89f3af0e0c400d1b2160d08f10416f8771ae26b3))
 
 
 
