@@ -54,8 +54,8 @@
         </div>
         <div class="col-12 col-sm-6 col-md-9 col-lg-10 mt-3 contact-content" id="contactContent" data-lang="en">
             <div class="lang-badges">
-                <span class="lang-badge active" data-lang="en">En</span>
-                <span class="lang-badge" data-lang="fa">Fa</span>
+                <span class="lang-badge active" data-lang="en">English</span>
+                <span class="lang-badge" data-lang="fa">فارسی</span>
             </div>
             <div data-lang-content="en">
                 <p><b>Full Name:</b> Mohammad Ghorbani</p>
