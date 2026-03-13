@@ -90,7 +90,6 @@
 @section('footer')
 <script>
     $("#about").addClass("active");
-
     (function () {
         var STORAGE_KEY = 'contact-lang';
         var content = document.getElementById('contactContent');
