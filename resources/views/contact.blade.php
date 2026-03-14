@@ -71,7 +71,7 @@
                 <p class="text-success font-weight-normal">The source of this website is available at <a href="https://github.com/moo-gh/my-website">GitHub</a>.</p>
             </div>
             <div data-lang-content="fa" style="display: none;">
-                <p><b>نام کامل:</b> محمد قربانی</p>
+                <p><b>نام:</b> محمد قربانی</p>
                 <p><b>نام انگلیسی:</b> مو</p>
                 <p><b>محل کار:</b> <a href="https://www.novosenso.com/">نووسنسو</a></p>
                 <p><b>مدرک تحصیلی:</b> کارشناسی ارشد مهندسی کامپیوتر از <a href="https://aut.ac.ir/en">دانشگاه صنعتی امیرکبیر</a> (تهران، ایران)</p>
