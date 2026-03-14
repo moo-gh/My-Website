@@ -2,8 +2,12 @@
 
 @section('head')
 <meta http-equiv="refresh" content="4;url=/contact">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
 <style>
   .redirect-message {
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -14,10 +18,12 @@
   }
   .redirect-message__text {
     font-size: 1.25rem;
+    font-weight: 600;
     color: #636e72;
     margin-bottom: 0.5rem;
   }
   .redirect-message__countdown {
+    font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
     font-size: 2.5rem;
     font-weight: 700;
     color: #0984e3;
