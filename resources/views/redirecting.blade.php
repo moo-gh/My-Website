@@ -12,15 +12,19 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    min-height: 60vh;
+    min-height: 82vh;
+    width: 100%;
     text-align: center;
     padding: 1.5rem;
+    box-sizing: border-box;
   }
   .redirect-message__text {
     font-size: 1.25rem;
     font-weight: 600;
     color: #636e72;
     margin-bottom: 0.5rem;
+    width: 100%;
+    max-width: 20em;
   }
   .redirect-message__countdown {
     font-family: 'Nunito', -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
@@ -29,6 +33,9 @@
     color: #0984e3;
     margin: 0.5rem 0;
     min-height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
   .redirect-message__link {
     font-size: 0.95rem;
@@ -41,7 +48,7 @@
       line-height: 1.5;
     }
     .redirect-message {
-      min-height: 50vh;
+      min-height: calc(100vh - 140px);
       padding: 2rem 1rem;
     }
     .redirect-message__countdown {
