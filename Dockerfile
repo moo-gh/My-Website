@@ -7,6 +7,4 @@ COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www/mo-ghorbani.ir
 COPY . .
-RUN composer install
-RUN composer update --with-all-dependencies
-RUN composer dump-autoload
+RUN composer install --no-dev --optimize-autoloader
