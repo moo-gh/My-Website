@@ -1,3 +1,12 @@
+## [1.6.1](https://github.com/moo-gh/My-Website/compare/v1.6.0...v1.6.1) (2026-04-12)
+
+
+### Bug Fixes
+
+* **master:** stick the foot bar to end ([628446e](https://github.com/moo-gh/My-Website/commit/628446e398512ba61a499a9d9e92a2d34329d89f))
+
+
+
 # [1.6.0](https://github.com/moo-gh/My-Website/compare/v1.5.0...v1.6.0) (2026-03-08)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * **about:** adds company link ([92c86cb](https://github.com/moo-gh/My-Website/commit/92c86cbf1506cf100c3590eaa3c7acfd756dff94))
-
-
-
-# [1.2.0](https://github.com/moo-gh/My-Website/compare/v1.1.1...v1.2.0) (2022-11-22)
-
-
-### Features
-
-* add deploy action ([13fdb90](https://github.com/moo-gh/My-Website/commit/13fdb903f20b6d00e6caba30927caf70d420583d))
 
 
 
