@@ -14,14 +14,14 @@
         }
     </style>
 </head>
-<body>
+<body class="d-flex flex-column" style="min-height: 100vh;">
 
     @include('navbar')
 
-    <div class="container" style="margin-top: 10px;min-height: 85vh;">
+    <div class="container flex-grow-1" style="margin-top: 10px;">
         @yield('content')
     </div>
-    
+
     @include('footer')
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
