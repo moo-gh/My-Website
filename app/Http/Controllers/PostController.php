@@ -199,17 +199,22 @@ class PostController extends Controller
 
     public function search(Request $request)
     {
+        $keywords = trim($request->input('keywords', ''));
+        if ($keywords === '') {
+            return redirect('/projects');
+        }
+
         if (Auth::check() && Auth::user()->role=='admin')
             $posts = Post::
                     where('type','proj')->
-                    where('body', 'LIKE', '%'.$request['keywords'].'%')->
-                    orWhere('title', 'LIKE', '%'.$request['keywords'].'%')->
+                    where('body', 'LIKE', '%'.$keywords.'%')->
+                    orWhere('title', 'LIKE', '%'.$keywords.'%')->
                     latest()->get();
         else
             $posts = Post::
                     where([['type','proj'], ['status','publish']])->
-                    where('body', 'LIKE', '%'.$request['keywords'].'%')->
-                    orWhere('title', 'LIKE', '%'.$request['keywords'].'%')->
+                    where('body', 'LIKE', '%'.$keywords.'%')->
+                    orWhere('title', 'LIKE', '%'.$keywords.'%')->
                     latest()->get();   
         return view('posts.projects', compact('posts'));
     }

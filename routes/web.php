@@ -25,7 +25,7 @@ Route::view('/kargahMap','kMap');
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
-Route::post('search', 'PostController@search')->name('search');
+Route::get('search', 'PostController@search')->name('search');
 
 
 Route::resource('posts', 'PostController');
