@@ -15,9 +15,7 @@ use App\Comment;
 */
 
 // Route::view('/','index');
-Route::get('/', function () {
-    return view('redirecting');
-});
+Route::redirect('/', '/contact');
 Route::view('/about','about');
 Route::view('/contact','contact');
 Route::get('/projects','PostController@projects');
