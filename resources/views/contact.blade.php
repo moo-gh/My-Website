@@ -26,6 +26,9 @@
         color: #6c757d;
         transition: all 0.2s;
     }
+    .lang-badge[data-lang="fa"] {
+        font-family: 'Vazir', 'Tahoma', sans-serif;
+    }
     .lang-badge:hover {
         border-color: #0984e3;
         color: #0984e3;
