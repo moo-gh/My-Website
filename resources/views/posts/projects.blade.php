@@ -9,7 +9,7 @@
 
 @section('content')
     <div class="text-center">
-    <div class="alert alert-info my-5">For seeing the total list of my projects, please check my <a href="https://github.com/ghorbani-mohammad" target="_blank" class="alert-link">GitHub account</a>.</div>
+    <div class="alert alert-info my-5">For seeing the total list of my projects, please check my <a href="https://github.com/moo-gh" target="_blank" class="alert-link">GitHub account</a>.</div>
     </div>
     @foreach($posts as $post)
     @include('posts.post')
