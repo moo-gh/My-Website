@@ -4,6 +4,17 @@
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
 
+<style>
+    .post-title {
+        font-size: 1.65rem !important;
+    }
+    @media screen and (min-width: 0px) and (max-width: 480px) {
+        .post-title {
+            font-size: 1.05rem !important;
+        }
+    }
+</style>
+
 @endsection
 
 
