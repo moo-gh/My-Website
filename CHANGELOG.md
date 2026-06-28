@@ -1,3 +1,12 @@
+## [1.6.2](https://github.com/moo-gh/My-Website/compare/v1.6.1...v1.6.2) (2026-06-28)
+
+
+### Bug Fixes
+
+* **middleware:** set default proxies to '*' for TrustProxies class to work with container requests ([21aa3aa](https://github.com/moo-gh/My-Website/commit/21aa3aa151165129a548c6330a616a5a1b2470ab))
+
+
+
 ## [1.6.1](https://github.com/moo-gh/My-Website/compare/v1.6.0...v1.6.1) (2026-04-12)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * **redirect:** create redirecting view for homepage to contact page ([daa4db2](https://github.com/moo-gh/My-Website/commit/daa4db2a9024d5772e34445fbb741dad6e1eb483))
-
-
-
-# [1.3.0](https://github.com/moo-gh/My-Website/compare/v1.2.0...v1.3.0) (2024-01-27)
-
-
-### Features
-
-* **about:** adds company link ([92c86cb](https://github.com/moo-gh/My-Website/commit/92c86cbf1506cf100c3590eaa3c7acfd756dff94))
 
 
 
