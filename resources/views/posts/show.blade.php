@@ -85,7 +85,7 @@
 
     <div class="comment-body" id="comments">
         <div class="row">
-            <h2 class="col display-4" >Comments</h2>
+            <h4 class="col mb-0">Comments</h4>
             <div class="col text-right mr-3 mt-3 mt-sm-0" >
                 <span style="position: absolute; bottom: 0;">
                         <div class="row"><a href=""><i class="far fa-comment"></i> {!!$post->countComments!!}</a></div>
