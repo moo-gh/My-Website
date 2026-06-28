@@ -55,12 +55,12 @@
         <div class="col-12 col-sm-6 col-md-3 col-lg-2 text-center">
             <img class="figure-img img-fluid rounded" src="images/myPicture3.jpg" alt="" width="200" height="200">
         </div>
-        <div class="col-12 col-sm-6 col-md-9 col-lg-10 mt-3 contact-content" id="contactContent" data-lang="en">
+        <div class="col-12 col-sm-6 col-md-9 col-lg-10 mt-3 contact-content" id="contactContent" data-lang="fa">
             <div class="lang-badges">
-                <span class="lang-badge active" data-lang="en">English</span>
-                <span class="lang-badge" data-lang="fa">فارسی</span>
+                <span class="lang-badge" data-lang="en">English</span>
+                <span class="lang-badge active" data-lang="fa">فارسی</span>
             </div>
-            <div data-lang-content="en">
+            <div data-lang-content="en" style="display: none;">
                 <p><b>Full Name:</b> Mohammad Ghorbani</p>
                 <p><b>English Name:</b> Mo</p>
                 <p><b>Working at:</b> <a href="https://www.novosenso.com/">Novosenso</a></p>
@@ -73,7 +73,7 @@
                 <p><b>Resume: </b><a href="https://www.m-gh.com/Mohammad_Resume_.pdf">Download</a></p>
                 <p class="text-success font-weight-normal">The source of this website is available at <a href="https://github.com/moo-gh/my-website">GitHub</a>.</p>
             </div>
-            <div data-lang-content="fa" style="display: none;">
+            <div data-lang-content="fa">
                 <p><b>نام:</b> محمد قربانی</p>
                 <p><b>محل کار:</b> <a href="https://www.novosenso.com/">نووسنسو</a></p>
                 <p><b>مدرک تحصیلی:</b> کارشناسی ارشد مهندسی کامپیوتر از <a href="https://aut.ac.ir/en">دانشگاه صنعتی امیرکبیر</a> (تهران، ایران)</p>
@@ -109,7 +109,7 @@
         }
 
         var saved = localStorage.getItem(STORAGE_KEY);
-        if (saved === 'fa') setLang('fa');
+        setLang(saved === 'en' ? 'en' : 'fa');
 
         badges.forEach(function (b) {
             b.addEventListener('click', function () {
