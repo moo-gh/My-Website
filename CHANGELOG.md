@@ -1,3 +1,12 @@
+# [1.7.0](https://github.com/moo-gh/My-Website/compare/v1.6.2...v1.7.0) (2026-07-07)
+
+
+### Features
+
+* **contact:** add Telegram contact link to the contact page ([4ccacdd](https://github.com/moo-gh/My-Website/commit/4ccacdd5f4298bf145d0e89395a8c4138e1cad1d))
+
+
+
 ## [1.6.2](https://github.com/moo-gh/My-Website/compare/v1.6.1...v1.6.2) (2026-06-28)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * **redirect:** add delay and countdown timer to redirecting view ([8d28546](https://github.com/moo-gh/My-Website/commit/8d28546f28a3fe7b69cf94427e4493f95738b53f))
-
-
-
-# [1.4.0](https://github.com/moo-gh/My-Website/compare/v1.3.0...v1.4.0) (2026-03-08)
-
-
-### Features
-
-* **redirect:** create redirecting view for homepage to contact page ([daa4db2](https://github.com/moo-gh/My-Website/commit/daa4db2a9024d5772e34445fbb741dad6e1eb483))
 
 
 
