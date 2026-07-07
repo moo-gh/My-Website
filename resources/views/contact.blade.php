@@ -70,6 +70,7 @@
                 <p><b>Email: </b><a href="mailto:mo.ghorb@gmail.com">mo.ghorb@gmail.com</a></p>
                 <p><b>LinkedIn: </b><a href="https://www.linkedin.com/in/gh-m/" target="_blank">gh-m</a></p>
                 <p><b>GitHub: </b><a href="https://github.com/moo-gh" target="_blank">moo-gh</a></p>
+                <p><b>Telegram: </b><a href="https://t.me/ghorbani_mohammad" target="_blank">@ghorbani_mohammad</a></p>
                 <p><b>Resume: </b><a href="https://www.m-gh.com/Mohammad_Resume_.pdf">Download</a></p>
                 <p class="text-success font-weight-normal">The source of this website is available at <a href="https://github.com/moo-gh/my-website">GitHub</a>.</p>
             </div>
@@ -82,6 +83,7 @@
                 <p><b>ایمیل: </b><a href="mailto:mo.ghorb@gmail.com">mo.ghorb@gmail.com</a></p>
                 <p><b>لینکدین: </b><a href="https://www.linkedin.com/in/gh-m/" target="_blank">gh-m</a></p>
                 <p><b>گیت‌هاب: </b><a href="https://github.com/moo-gh" target="_blank">moo-gh</a></p>
+                <p><b>تلگرام: </b><a href="https://t.me/ghorbani_mohammad" target="_blank">@ghorbani_mohammad</a></p>
                 <p><b>رزومه: </b><a href="https://www.m-gh.com/Mohammad_Resume_.pdf">دانلود</a></p>
                 <!-- <p class="text-success font-weight-normal">منبع این وبسایت در <a href="https://github.com/moo-gh/my-website">گیت‌هاب</a> موجود است.</p> -->
             </div>
