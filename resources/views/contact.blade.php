@@ -83,7 +83,7 @@
                 <p><b>لینکدین: </b><a href="https://www.linkedin.com/in/gh-m/" target="_blank">gh-m</a></p>
                 <p><b>گیت‌هاب: </b><a href="https://github.com/moo-gh" target="_blank">moo-gh</a></p>
                 <p><b>رزومه: </b><a href="https://www.m-gh.com/Mohammad_Resume_.pdf">دانلود</a></p>
-                <p class="text-success font-weight-normal">منبع این وبسایت در <a href="https://github.com/moo-gh/my-website">گیت‌هاب</a> موجود است.</p>
+                <!-- <p class="text-success font-weight-normal">منبع این وبسایت در <a href="https://github.com/moo-gh/my-website">گیت‌هاب</a> موجود است.</p> -->
             </div>
         </div>
     </div>
