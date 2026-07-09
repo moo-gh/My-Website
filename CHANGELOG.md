@@ -1,3 +1,12 @@
+## [1.7.1](https://github.com/moo-gh/My-Website/compare/v1.7.0...v1.7.1) (2026-07-09)
+
+
+### Bug Fixes
+
+* **contact:** correct spelling and formatting in expertise section of contact page ([8209185](https://github.com/moo-gh/My-Website/commit/820918586bdb343becfbb26f8d2655cd2bad1168))
+
+
+
 # [1.7.0](https://github.com/moo-gh/My-Website/compare/v1.6.2...v1.7.0) (2026-07-07)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * **contact:** implement multilingual support with language toggle on contact page ([3ce6048](https://github.com/moo-gh/My-Website/commit/3ce6048bf608661aa67761eb6aba00b0bb57de56))
-
-
-
-# [1.5.0](https://github.com/moo-gh/My-Website/compare/v1.4.0...v1.5.0) (2026-03-08)
-
-
-### Features
-
-* **redirect:** add delay and countdown timer to redirecting view ([8d28546](https://github.com/moo-gh/My-Website/commit/8d28546f28a3fe7b69cf94427e4493f95738b53f))
 
 
 
