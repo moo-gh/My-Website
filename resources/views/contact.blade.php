@@ -78,7 +78,7 @@
                 <p><b>نام:</b> محمد قربانی</p>
                 <p><b>محل کار:</b> <a href="https://www.novosenso.com/">نووسنسو</a></p>
                 <p><b>مدرک تحصیلی:</b> کارشناسی ارشد مهندسی کامپیوتر از <a href="https://aut.ac.ir/en">دانشگاه صنعتی امیرکبیر</a> (تهران، ایران)</p>
-                <p><b>تخصص اصلی:</b> پایتون/جنگو، AWS، داکر، سلری، DjangoRestFramework، ردیس.</p>
+                <p><b>تخصص اصلی:</b> پایتون/جنگو، AWS، Docker, Celery, DjangoRestFramework, Redis.</p>
                 <p><b>سایر تجربیات:</b> پردازش زبان طبیعی، تشخیص تقلب، MongoDB، ElasticSearch، کوبرنتیز، اژور، PHP/لاراول، بوت‌استرپ.</p>
                 <p><b>ایمیل: </b><a href="mailto:mo.ghorb@gmail.com">mo.ghorb@gmail.com</a></p>
                 <p><b>لینکدین: </b><a href="https://www.linkedin.com/in/gh-m/" target="_blank">gh-m</a></p>
