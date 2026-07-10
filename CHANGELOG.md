@@ -1,3 +1,12 @@
+## [1.7.3](https://github.com/moo-gh/My-Website/compare/v1.7.2...v1.7.3) (2026-07-10)
+
+
+### Bug Fixes
+
+* **contact:** standardize capitalization in expertise section ([232f15e](https://github.com/moo-gh/My-Website/commit/232f15e2bb4030a513d58168bd060a379168e21a))
+
+
+
 ## [1.7.2](https://github.com/moo-gh/My-Website/compare/v1.7.1...v1.7.2) (2026-07-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **middleware:** set default proxies to '*' for TrustProxies class to work with container requests ([21aa3aa](https://github.com/moo-gh/My-Website/commit/21aa3aa151165129a548c6330a616a5a1b2470ab))
-
-
-
-## [1.6.1](https://github.com/moo-gh/My-Website/compare/v1.6.0...v1.6.1) (2026-04-12)
-
-
-### Bug Fixes
-
-* **master:** stick the foot bar to end ([628446e](https://github.com/moo-gh/My-Website/commit/628446e398512ba61a499a9d9e92a2d34329d89f))
 
 
 
