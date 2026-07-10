@@ -1,8 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <span class="navbar-brand text-primary" href="#">
+        <a class="navbar-brand text-primary" href="https://m-gh.com">
             <img src="/images/m2.png" width="30" height="30" class="d-inline-block align-top" alt="">
             M-GH
-        </span>
+        </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
