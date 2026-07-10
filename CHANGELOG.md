@@ -1,3 +1,12 @@
+## [1.7.2](https://github.com/moo-gh/My-Website/compare/v1.7.1...v1.7.2) (2026-07-10)
+
+
+### Bug Fixes
+
+* **contact:** use English keywords in expertise section ([b9e63dc](https://github.com/moo-gh/My-Website/commit/b9e63dc529c55e35cca7e56988e0431dc2fa9ee1))
+
+
+
 ## [1.7.1](https://github.com/moo-gh/My-Website/compare/v1.7.0...v1.7.1) (2026-07-09)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **master:** stick the foot bar to end ([628446e](https://github.com/moo-gh/My-Website/commit/628446e398512ba61a499a9d9e92a2d34329d89f))
-
-
-
-# [1.6.0](https://github.com/moo-gh/My-Website/compare/v1.5.0...v1.6.0) (2026-03-08)
-
-
-### Features
-
-* **contact:** implement multilingual support with language toggle on contact page ([3ce6048](https://github.com/moo-gh/My-Website/commit/3ce6048bf608661aa67761eb6aba00b0bb57de56))
 
 
 
