@@ -1,3 +1,12 @@
+## [1.7.4](https://github.com/moo-gh/My-Website/compare/v1.7.3...v1.7.4) (2026-07-10)
+
+
+### Bug Fixes
+
+* **navbar:** change brand span to anchor and update link to M-GH ([bd2ca9d](https://github.com/moo-gh/My-Website/commit/bd2ca9d16f13bc7a9e04fa319aab8cb77d84f120))
+
+
+
 ## [1.7.3](https://github.com/moo-gh/My-Website/compare/v1.7.2...v1.7.3) (2026-07-10)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * **contact:** add Telegram contact link to the contact page ([4ccacdd](https://github.com/moo-gh/My-Website/commit/4ccacdd5f4298bf145d0e89395a8c4138e1cad1d))
-
-
-
-## [1.6.2](https://github.com/moo-gh/My-Website/compare/v1.6.1...v1.6.2) (2026-06-28)
-
-
-### Bug Fixes
-
-* **middleware:** set default proxies to '*' for TrustProxies class to work with container requests ([21aa3aa](https://github.com/moo-gh/My-Website/commit/21aa3aa151165129a548c6330a616a5a1b2470ab))
 
 
 
