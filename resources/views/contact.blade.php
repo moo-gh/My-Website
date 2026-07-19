@@ -63,7 +63,7 @@
             <div data-lang-content="en" style="display: none;">
                 <p><b>Full Name:</b> Mohammad Ghorbani</p>
                 <p><b>English Name:</b> Mo</p>
-                <p><b>Working at:</b> <a href="https://www.novosenso.com/">Novosenso</a></p>
+                <p><b>Working at:</b> Remote</p>
                 <p><b>Academic Degree:</b> Master's degree in Computer Engineering from <a href="https://aut.ac.ir/en">Amirkabir University of Technology</a> (Tehran, Iran)</p>
                 <p><b>Main Expertise:</b> Python/Django, AWS, Docker, Celery, DjangoRestFramework, Redis.</p>
                 <p><b>Other Experiences:</b> NLP, Fraud Detection, MongoDB, ElasticSearch, Kubernetes, Azure, PHP/Laravel, Bootstrap.</p>
@@ -76,7 +76,7 @@
             </div>
             <div data-lang-content="fa">
                 <p><b>نام:</b> محمد قربانی</p>
-                <p><b>محل کار:</b> <a href="https://www.novosenso.com/">نووسنسو</a></p>
+                <p><b>محل کار:</b> دورکار</p>
                 <p><b>مدرک تحصیلی:</b> کارشناسی ارشد مهندسی کامپیوتر از <a href="https://aut.ac.ir/en">دانشگاه صنعتی امیرکبیر</a> (تهران، ایران)</p>
                 <p><b>تخصص اصلی:</b> Python/Django, AWS, Docker, Celery, DjangoRestFramework, Redis.</p>
                 <p><b>سایر تجربیات:</b> NLP, Fraud Detection, MongoDB, ElasticSearch, Kubernetes, Azure, PHP/Laravel, Bootstrap.</p>
