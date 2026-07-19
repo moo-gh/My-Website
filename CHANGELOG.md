@@ -1,3 +1,12 @@
+# [1.8.0](https://github.com/moo-gh/My-Website/compare/v1.7.4...v1.8.0) (2026-07-19)
+
+
+### Features
+
+* **contact:** update workplace information to reflect remote status ([7ff6e55](https://github.com/moo-gh/My-Website/commit/7ff6e557023bc74493d26b85cb759e8def9e79d8))
+
+
+
 ## [1.7.4](https://github.com/moo-gh/My-Website/compare/v1.7.3...v1.7.4) (2026-07-10)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **contact:** correct spelling and formatting in expertise section of contact page ([8209185](https://github.com/moo-gh/My-Website/commit/820918586bdb343becfbb26f8d2655cd2bad1168))
-
-
-
-# [1.7.0](https://github.com/moo-gh/My-Website/compare/v1.6.2...v1.7.0) (2026-07-07)
-
-
-### Features
-
-* **contact:** add Telegram contact link to the contact page ([4ccacdd](https://github.com/moo-gh/My-Website/commit/4ccacdd5f4298bf145d0e89395a8c4138e1cad1d))
 
 
 
