@@ -1,3 +1,12 @@
+# [1.9.0](https://github.com/moo-gh/My-Website/compare/v1.8.0...v1.9.0) (2026-10-02)
+
+
+### Features
+
+* **middleware:** add StripTrackingQueryParameters middleware to clean query parameters and enhance URL handling ([8c26f6d](https://github.com/moo-gh/My-Website/commit/8c26f6d0d4905d844100edf93f68ff4f697b482b))
+
+
+
 # [1.8.0](https://github.com/moo-gh/My-Website/compare/v1.7.4...v1.8.0) (2026-07-19)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **contact:** use English keywords in expertise section ([b9e63dc](https://github.com/moo-gh/My-Website/commit/b9e63dc529c55e35cca7e56988e0431dc2fa9ee1))
-
-
-
-## [1.7.1](https://github.com/moo-gh/My-Website/compare/v1.7.0...v1.7.1) (2026-07-09)
-
-
-### Bug Fixes
-
-* **contact:** correct spelling and formatting in expertise section of contact page ([8209185](https://github.com/moo-gh/My-Website/commit/820918586bdb343becfbb26f8d2655cd2bad1168))
 
 
 
