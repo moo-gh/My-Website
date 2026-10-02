@@ -14,10 +14,10 @@ use App\Comment;
 |
 */
 
-// Route::view('/','index');
-Route::redirect('/', '/contact');
-Route::view('/about','about');
-Route::view('/contact','contact');
+Route::view('/', 'contact');
+Route::redirect('/contact', '/');
+Route::view('/about', 'about');
+Route::view('/archive', 'index');
 Route::get('/projects','PostController@projects');
 Route::view('/daftarMap','dMap');
 Route::view('/kargahMap','kMap');

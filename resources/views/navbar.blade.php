@@ -17,7 +17,7 @@
                     <a class="nav-link" href="/projects">Projects</a>
                 </li>
                 <li id="about" class="nav-item">
-                    <a class="nav-link" href="/contact">Contact Me</a>
+                    <a class="nav-link" href="/">Contact Me</a>
                 </li>
                 <li class="nav-item d-flex align-items-center">
                     <a type="button" class="btn btn-success btn-sm" href="/Mo_Resume.pdf">

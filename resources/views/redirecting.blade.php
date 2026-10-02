@@ -1,7 +1,7 @@
 @extends('master')
 
 @section('head')
-<meta http-equiv="refresh" content="4;url=/contact">
+<meta http-equiv="refresh" content="4;url=/">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
@@ -69,7 +69,7 @@
 <div class="redirect-message">
   <p class="redirect-message__text">Redirecting to contact...</p>
   <div class="redirect-message__countdown" id="countdown">3</div>
-  <a href="/contact" class="btn btn-link mt-2 redirect-message__link">Click here if you are not redirected</a>
+  <a href="/" class="btn btn-link mt-2 redirect-message__link">Click here if you are not redirected</a>
 </div>
 @endsection
 
@@ -84,7 +84,7 @@
         el.textContent = n;
       } else {
         clearInterval(interval);
-        window.location.href = '/contact';
+        window.location.href = '/';
       }
     }, 1000);
   })();
