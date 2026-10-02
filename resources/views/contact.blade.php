@@ -64,7 +64,7 @@
                 <p><b>Full Name:</b> Mohammad Ghorbani</p>
                 <p><b>English Name:</b> Mo</p>
                 <p><b>Working at:</b> Remote</p>
-                <p><b>Academic Degree:</b> Master's degree in Computer Engineering from <a href="https://aut.ac.ir/en">Amirkabir University of Technology</a> (Tehran, Iran)</p>
+                <p><b>Academic Degree:</b> Master's degree in Computer Engineering from <a href="https://aut.ac.ir/en" target="_blank">Amirkabir University of Technology</a></p>
                 <p><b>Main Expertise:</b> Python/Django, AWS, Docker, Celery, DjangoRestFramework, Redis.</p>
                 <p><b>Other Experiences:</b> NLP, Fraud Detection, MongoDB, ElasticSearch, Kubernetes, Azure, PHP/Laravel, Bootstrap.</p>
                 <p><b>Email: </b><a href="mailto:mo.ghorb@gmail.com">mo.ghorb@gmail.com</a></p>
