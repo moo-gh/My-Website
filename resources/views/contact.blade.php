@@ -46,8 +46,21 @@
         text-align: right;
         font-family: 'Vazir', 'Tahoma', sans-serif;
     }
+    .lang-item {
+        display: inline-flex;
+        align-items: center;
+        gap: 0.35rem;
+        margin-inline-start: 0.85rem;
+        white-space: nowrap;
+    }
+    .lang-item .fi {
+        width: 1.15em;
+        line-height: 1em;
+        border-radius: 2px;
+    }
 </style>
 <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" rel="stylesheet">
 @endsection
 
 @section('content')
@@ -67,6 +80,7 @@
                 <p><b>Academic Degree:</b> Master's degree in Computer Engineering from Amirkabir University of Technology</p>
                 <p><b>Main Expertise:</b> Python/Django, AWS, Docker, Celery, DjangoRestFramework, Redis.</p>
                 <p><b>Other Experiences:</b> NLP, Fraud Detection, MongoDB, ElasticSearch, Kubernetes, Azure, PHP/Laravel, Bootstrap.</p>
+                <p><b>Languages:</b> <span class="lang-item"><span class="fi fi-gb"></span> English</span> <span class="lang-item"><span class="fi fi-fr"></span> French</span> <span class="lang-item"><span class="fi fi-tr"></span> Turkish</span> <span class="lang-item"><span class="fi fi-ir"></span> Persian</span></p>
                 <p><b>Email: </b><a href="mailto:mo.ghorb@gmail.com">mo.ghorb@gmail.com</a></p>
                 <p><b>LinkedIn: </b><a href="https://www.linkedin.com/in/gh-m/" target="_blank">gh-m</a></p>
                 <p><b>GitHub: </b><a href="https://github.com/moo-gh" target="_blank">moo-gh</a></p>
@@ -77,9 +91,10 @@
             <div data-lang-content="fa">
                 <p><b>نام:</b> محمد قربانی</p>
                 <p><b>محل کار:</b> دورکار</p>
-                <p><b>تحصیلات:</b> کارشناسی ارشد مهندسی کامپیوتر از <a href="https://aut.ac.ir/en">دانشگاه صنعتی امیرکبیر</a> تهران</p>
+                <p><b>تحصیلات:</b> کارشناسی ارشد مهندسی کامپیوتر از دانشگاه صنعتی امیرکبیر تهران</p>
                 <p><b>تخصص اصلی:</b> Python/Django, AWS, Docker, Celery, DjangoRestFramework, Redis.</p>
                 <p><b>سایر تجربیات:</b> NLP, Fraud Detection, MongoDB, ElasticSearch, Kubernetes, Azure, PHP/Laravel, Bootstrap.</p>
+                <p><b>زبان‌ها:</b> <span class="lang-item"><span class="fi fi-gb"></span> انگلیسی</span> <span class="lang-item"><span class="fi fi-fr"></span> فرانسوی</span> <span class="lang-item"><span class="fi fi-tr"></span> ترکی</span> <span class="lang-item"><span class="fi fi-ir"></span> فارسی</span></p>
                 <p><b>ایمیل: </b><a href="mailto:mo.ghorb@gmail.com">mo.ghorb@gmail.com</a></p>
                 <p><b>لینکدین: </b><a href="https://www.linkedin.com/in/gh-m/" target="_blank">gh-m</a></p>
                 <p><b>گیت‌هاب: </b><a href="https://github.com/moo-gh" target="_blank">moo-gh</a></p>
