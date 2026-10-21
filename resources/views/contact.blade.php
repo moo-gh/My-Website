@@ -47,16 +47,15 @@
         font-family: 'Vazir', 'Tahoma', sans-serif;
     }
     .lang-item {
-        display: inline-flex;
-        align-items: center;
-        gap: 0.35rem;
-        margin-inline-start: 0.85rem;
-        white-space: nowrap;
+        display: inline-block;
+        margin-inline-start: 0.45rem;
+        line-height: 1;
     }
     .lang-item .fi {
-        width: 1.15em;
+        width: 1.35em;
         line-height: 1em;
         border-radius: 2px;
+        vertical-align: -0.15em;
     }
 </style>
 <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet">
@@ -80,7 +79,7 @@
                 <p><b>Academic Degree:</b> Master's degree in Computer Engineering from Amirkabir University of Technology</p>
                 <p><b>Main Expertise:</b> Python/Django, AWS, Docker, Celery, DjangoRestFramework, Redis.</p>
                 <p><b>Other Experiences:</b> NLP, Fraud Detection, MongoDB, ElasticSearch, Kubernetes, Azure, PHP/Laravel, Bootstrap.</p>
-                <p><b>Languages:</b> <span class="lang-item"><span class="fi fi-gb"></span> English</span> <span class="lang-item"><span class="fi fi-fr"></span> French</span> <span class="lang-item"><span class="fi fi-tr"></span> Turkish</span> <span class="lang-item"><span class="fi fi-ir"></span> Persian</span></p>
+                <p><b>Languages:</b> <span class="lang-item" title="English"><span class="fi fi-gb" aria-label="English"></span></span> <span class="lang-item" title="French"><span class="fi fi-fr" aria-label="French"></span></span> <span class="lang-item" title="Turkish"><span class="fi fi-tr" aria-label="Turkish"></span></span> <span class="lang-item" title="Persian"><span class="fi fi-ir" aria-label="Persian"></span></span></p>
                 <p><b>Email: </b><a href="mailto:mo.ghorb@gmail.com">mo.ghorb@gmail.com</a></p>
                 <p><b>LinkedIn: </b><a href="https://www.linkedin.com/in/gh-m/" target="_blank">gh-m</a></p>
                 <p><b>GitHub: </b><a href="https://github.com/moo-gh" target="_blank">moo-gh</a></p>
@@ -94,7 +93,7 @@
                 <p><b>تحصیلات:</b> کارشناسی ارشد مهندسی کامپیوتر از دانشگاه صنعتی امیرکبیر تهران</p>
                 <p><b>تخصص اصلی:</b> Python/Django, AWS, Docker, Celery, DjangoRestFramework, Redis.</p>
                 <p><b>سایر تجربیات:</b> NLP, Fraud Detection, MongoDB, ElasticSearch, Kubernetes, Azure, PHP/Laravel, Bootstrap.</p>
-                <p><b>زبان‌ها:</b> <span class="lang-item"><span class="fi fi-gb"></span> انگلیسی</span> <span class="lang-item"><span class="fi fi-fr"></span> فرانسوی</span> <span class="lang-item"><span class="fi fi-tr"></span> ترکی</span> <span class="lang-item"><span class="fi fi-ir"></span> فارسی</span></p>
+                <p><b>زبان‌ها:</b> <span class="lang-item" title="انگلیسی"><span class="fi fi-gb" aria-label="انگلیسی"></span></span> <span class="lang-item" title="فرانسوی"><span class="fi fi-fr" aria-label="فرانسوی"></span></span> <span class="lang-item" title="ترکی"><span class="fi fi-tr" aria-label="ترکی"></span></span> <span class="lang-item" title="فارسی"><span class="fi fi-ir" aria-label="فارسی"></span></span></p>
                 <p><b>ایمیل: </b><a href="mailto:mo.ghorb@gmail.com">mo.ghorb@gmail.com</a></p>
                 <p><b>لینکدین: </b><a href="https://www.linkedin.com/in/gh-m/" target="_blank">gh-m</a></p>
                 <p><b>گیت‌هاب: </b><a href="https://github.com/moo-gh" target="_blank">moo-gh</a></p>
