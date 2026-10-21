@@ -100,7 +100,7 @@
             <div data-lang-content="fa">
                 <p><b>نام:</b> محمد قربانی</p>
                 <p><b>محل کار:</b> دورکار</p>
-                <p><b>تحصیلات:</b> کارشناسی ارشد مهندسی کامپیوتر از دانشگاه صنعتی امیرکبیر تهران</p>
+                <p><b>تحصیلات:</b> کارشناسی ارشد مهندسی کامپیوتر از <a href="https://aut.ac.ir/en" target="_blank">دانشگاه صنعتی امیرکبیر</a> تهران</p>
                 <p><b>تخصص اصلی:</b> Python/Django, AWS, Docker, Celery, DjangoRestFramework, Redis.</p>
                 <p><b>سایر تجربیات:</b> NLP, Fraud Detection, MongoDB, ElasticSearch, Kubernetes, Azure, PHP/Laravel, Bootstrap.</p>
                 <p class="spoken-langs"><b>زبان‌ها:</b> <span class="lang-item" title="انگلیسی"><span class="fi fi-gb" aria-label="انگلیسی"></span></span> <span class="lang-item" title="فرانسوی"><span class="fi fi-fr" aria-label="فرانسوی"></span></span> <span class="lang-item" title="ترکی"><span class="fi fi-tr" aria-label="ترکی"></span></span> <span class="lang-item" title="فارسی"><span class="fi fi-ir" aria-label="فارسی"></span></span></p>
