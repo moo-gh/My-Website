@@ -1,3 +1,12 @@
+# [1.10.0](https://github.com/moo-gh/My-Website/compare/v1.9.0...v1.10.0) (2026-10-21)
+
+
+### Features
+
+* **contact:** add langauges ([8aeb289](https://github.com/moo-gh/My-Website/commit/8aeb28950c114f0b2b57e02c9ba15dc5dd82c67f))
+
+
+
 # [1.9.0](https://github.com/moo-gh/My-Website/compare/v1.8.0...v1.9.0) (2026-10-02)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **contact:** standardize capitalization in expertise section ([232f15e](https://github.com/moo-gh/My-Website/commit/232f15e2bb4030a513d58168bd060a379168e21a))
-
-
-
-## [1.7.2](https://github.com/moo-gh/My-Website/compare/v1.7.1...v1.7.2) (2026-07-10)
-
-
-### Bug Fixes
-
-* **contact:** use English keywords in expertise section ([b9e63dc](https://github.com/moo-gh/My-Website/commit/b9e63dc529c55e35cca7e56988e0431dc2fa9ee1))
 
 
 
