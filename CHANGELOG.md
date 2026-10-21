@@ -1,3 +1,12 @@
+## [1.10.1](https://github.com/moo-gh/My-Website/compare/v1.10.0...v1.10.1) (2026-10-21)
+
+
+### Bug Fixes
+
+* **contact:** add hyperlink to university name in educational qualifications for better navigation ([5354d1b](https://github.com/moo-gh/My-Website/commit/5354d1bc57ac499b19fb992206aeacad6d80dbd4))
+
+
+
 # [1.10.0](https://github.com/moo-gh/My-Website/compare/v1.9.0...v1.10.0) (2026-10-21)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **navbar:** change brand span to anchor and update link to M-GH ([bd2ca9d](https://github.com/moo-gh/My-Website/commit/bd2ca9d16f13bc7a9e04fa319aab8cb77d84f120))
-
-
-
-## [1.7.3](https://github.com/moo-gh/My-Website/compare/v1.7.2...v1.7.3) (2026-07-10)
-
-
-### Bug Fixes
-
-* **contact:** standardize capitalization in expertise section ([232f15e](https://github.com/moo-gh/My-Website/commit/232f15e2bb4030a513d58168bd060a379168e21a))
 
 
 
