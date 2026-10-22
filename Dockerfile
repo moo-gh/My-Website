@@ -1,9 +1,9 @@
-FROM php:7.4-fpm-alpine
+FROM php:8.0-cli-alpine
 
-RUN docker-php-ext-install pdo pdo_mysql sockets
-RUN curl -sS https://getcomposer.org/installer | php -- --install-dir=/usr/local/bin --filename=composer
+RUN apk add --no-cache oniguruma-dev \
+    && docker-php-ext-install mbstring pdo pdo_mysql sockets
 
-COPY --from=composer:latest /usr/bin/composer /usr/bin/composer
+COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
 
 WORKDIR /var/www/mo-ghorbani.ir
 COPY . .
