@@ -10,8 +10,7 @@
         "laravel/framework": "^6.0.0",
         "laravel/helpers": "^1.2",
         "laravel/tinker": "^1.0",
-        "protoqol/prequel": "^1.11",
-        "nunomaduro/collision":"^2.0"
+        "protoqol/prequel": "^1.11"
     },
     "require-dev": {
         "filp/whoops": "^2.0",
