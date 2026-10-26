@@ -1,3 +1,12 @@
+# [1.11.0](https://github.com/moo-gh/My-Website/compare/v1.10.1...v1.11.0) (2026-10-26)
+
+
+### Features
+
+* **contact:** add phone contact section with styling for better presentation ([712bc76](https://github.com/moo-gh/My-Website/commit/712bc7604ec7886528b7bb7f41859def28cffe4f))
+
+
+
 ## [1.10.1](https://github.com/moo-gh/My-Website/compare/v1.10.0...v1.10.1) (2026-10-21)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * **contact:** update workplace information to reflect remote status ([7ff6e55](https://github.com/moo-gh/My-Website/commit/7ff6e557023bc74493d26b85cb759e8def9e79d8))
-
-
-
-## [1.7.4](https://github.com/moo-gh/My-Website/compare/v1.7.3...v1.7.4) (2026-07-10)
-
-
-### Bug Fixes
-
-* **navbar:** change brand span to anchor and update link to M-GH ([bd2ca9d](https://github.com/moo-gh/My-Website/commit/bd2ca9d16f13bc7a9e04fa319aab8cb77d84f120))
 
 
 
