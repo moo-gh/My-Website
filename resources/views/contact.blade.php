@@ -322,7 +322,7 @@
             'name' => 'Mohammad Ghorbani',
             'alt' => 'Mohammad Ghorbani',
             'meta' => 'Mo · Remote',
-            'education' => 'Master\'s degree in Computer Engineering from <a href="https://aut.ac.ir/en" target="_blank" rel="noopener noreferrer">Amirkabir University of Technology</a>',
+            'education' => 'Master\'s degree in Computer Engineering from Amirkabir University of Technology',
             'expertise' => 'Main expertise',
             'other' => 'Other experiences',
             'languages' => 'Languages',
