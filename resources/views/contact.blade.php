@@ -69,10 +69,17 @@
     }
     .phones {
         display: flex;
-        align-items: center;
+        align-items: flex-start;
+        column-gap: 0.9rem;
+    }
+    .phone-list {
+        display: flex;
+        flex: 1;
         flex-wrap: wrap;
+        align-items: center;
         column-gap: 0.9rem;
         row-gap: 0.35rem;
+        min-width: 0;
     }
     .phone-item {
         display: inline-flex;
@@ -81,10 +88,21 @@
         direction: ltr;
     }
     .phone-item .fi {
-        width: 1.15em;
-        line-height: 1em;
+        width: 1.2em;
+        height: 0.9em;
+        background-size: cover;
+        background-position: center;
         border-radius: 2px;
         flex-shrink: 0;
+        display: block;
+        position: relative;
+        top: -0.02em;
+    }
+    .phone-item .fi::before {
+        content: none;
+    }
+    .contact-content[data-lang="fa"] .phone-item .fi {
+        top: -0.11em;
     }
 </style>
 <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet">
@@ -110,7 +128,7 @@
                 <p><b>Other Experiences:</b> NLP, Fraud Detection, MongoDB, ElasticSearch, Kubernetes, Azure, PHP/Laravel, Bootstrap.</p>
                 <p class="spoken-langs"><b>Languages:</b> <span class="lang-item" title="English"><span class="fi fi-gb" aria-label="English"></span></span> <span class="lang-item" title="French"><span class="fi fi-fr" aria-label="French"></span></span> <span class="lang-item" title="Turkish"><span class="fi fi-tr" aria-label="Turkish"></span></span> <span class="lang-item" title="Persian"><span class="fi fi-ir" aria-label="Persian"></span></span></p>
                 <p><b>Email: </b><a href="mailto:mo.ghorb@gmail.com">mo.ghorb@gmail.com</a></p>
-                <p class="phones"><b>Phone:</b> <a class="phone-item" href="tel:+905343934352" title="Turkey"><span class="fi fi-tr" aria-label="Turkey"></span><span>+90 534-393-4352</span></a> <a class="phone-item" href="tel:+447501584977" title="United Kingdom"><span class="fi fi-gb" aria-label="United Kingdom"></span><span>+44 750-158-4977</span></a></p>
+                <p class="phones"><b>Phone:</b> <span class="phone-list"><a class="phone-item" href="tel:+905343934352" title="Turkey"><span class="fi fi-tr" aria-label="Turkey"></span><span>+90 534-393-4352</span></a><a class="phone-item" href="tel:+447501584977" title="United Kingdom"><span class="fi fi-gb" aria-label="United Kingdom"></span><span>+44 750-158-4977</span></a></span></p>
                 <p><b>LinkedIn: </b><a href="https://www.linkedin.com/in/gh-m/" target="_blank">gh-m</a></p>
                 <p><b>GitHub: </b><a href="https://github.com/moo-gh" target="_blank">moo-gh</a></p>
                 <p><b>Telegram: </b><a href="https://t.me/ghorbani_mohammad" target="_blank">ghorbani_mohammad</a></p>
@@ -125,7 +143,7 @@
                 <p><b>سایر تجربیات:</b> NLP, Fraud Detection, MongoDB, ElasticSearch, Kubernetes, Azure, PHP/Laravel, Bootstrap.</p>
                 <p class="spoken-langs"><b>زبان‌ها:</b> <span class="lang-item" title="انگلیسی"><span class="fi fi-gb" aria-label="انگلیسی"></span></span> <span class="lang-item" title="فرانسوی"><span class="fi fi-fr" aria-label="فرانسوی"></span></span> <span class="lang-item" title="ترکی"><span class="fi fi-tr" aria-label="ترکی"></span></span> <span class="lang-item" title="فارسی"><span class="fi fi-ir" aria-label="فارسی"></span></span></p>
                 <p><b>ایمیل: </b><a href="mailto:mo.ghorb@gmail.com">mo.ghorb@gmail.com</a></p>
-                <p class="phones"><b>تلفن:</b> <a class="phone-item" href="tel:+905343934352" title="ترکیه"><span class="fi fi-tr" aria-label="ترکیه"></span><span>+90 534-393-4352</span></a> <a class="phone-item" href="tel:+447501584977" title="انگلستان"><span class="fi fi-gb" aria-label="انگلستان"></span><span>+44 750-158-4977</span></a></p>
+                <p class="phones"><b>تلفن:</b> <span class="phone-list"><a class="phone-item" href="tel:+905343934352" title="ترکیه"><span class="fi fi-tr" aria-label="ترکیه"></span><span>+90 534-393-4352</span></a><a class="phone-item" href="tel:+447501584977" title="انگلستان"><span class="fi fi-gb" aria-label="انگلستان"></span><span>+44 750-158-4977</span></a></span></p>
                 <p><b>لینکدین: </b><a href="https://www.linkedin.com/in/gh-m/" target="_blank">gh-m</a></p>
                 <p><b>گیت‌هاب: </b><a href="https://github.com/moo-gh" target="_blank">moo-gh</a></p>
                 <p><b>تلگرام: </b><a href="https://t.me/ghorbani_mohammad" target="_blank">ghorbani_mohammad</a></p>
