@@ -3,7 +3,7 @@
 @section('head')
 <style>
     .contact-page {
-        font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+        font-family: 'Inter', 'Segoe UI', sans-serif;
         color: #2d3436;
         max-width: 920px;
         margin: 0 auto;
@@ -40,6 +40,9 @@
         background: #fff;
         color: #6c757d;
         transition: background 0.2s, border-color 0.2s, color 0.2s;
+    }
+    .lang-badge[data-lang="en"] {
+        font-family: 'Inter', 'Segoe UI', sans-serif;
     }
     .lang-badge[data-lang="fa"] {
         font-family: 'Vazir', 'Tahoma', sans-serif;
@@ -110,7 +113,7 @@
     }
     .contact-label {
         display: block;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-family: inherit;
         font-size: 0.78rem;
         font-weight: 700;
         letter-spacing: 0.04em;
@@ -199,7 +202,7 @@
     }
     .contact-item-label {
         display: block;
-        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+        font-family: inherit;
         font-size: 0.75rem;
         color: #868e96;
         margin-bottom: 0.12rem;
@@ -281,6 +284,10 @@
         }
     }
 </style>
+<link href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.8/latin-400.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.8/latin-500.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.8/latin-600.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@fontsource/inter@5.2.8/latin-700.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/gh/rastikerdar/vazir-font@v30.1.0/dist/font-face.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/gh/lipis/flag-icons@7.2.3/css/flag-icons.min.css" rel="stylesheet">
 <script>
