@@ -316,6 +316,7 @@
     $phones = [
         ['href' => 'tel:+447501584977', 'display' => '+44 750-158-4977', 'flag' => 'gb', 'en' => 'United Kingdom', 'fa' => 'انگلستان'],
         ['href' => 'tel:+905343934352', 'display' => '+90 534-393-4352', 'flag' => 'tr', 'en' => 'Turkey', 'fa' => 'ترکیه'],
+        ['href' => 'tel:+989127194347', 'display' => '+98 912-719-4347', 'flag' => 'ir', 'en' => 'Iran', 'fa' => 'ایران'],
     ];
     $copy = [
         'en' => [
