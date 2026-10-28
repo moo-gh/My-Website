@@ -314,8 +314,8 @@
         ['code' => 'ir', 'en' => 'Persian', 'fa' => 'فارسی'],
     ];
     $phones = [
-        ['href' => 'tel:+905343934352', 'display' => '+90 534-393-4352', 'flag' => 'tr', 'en' => 'Turkey', 'fa' => 'ترکیه'],
         ['href' => 'tel:+447501584977', 'display' => '+44 750-158-4977', 'flag' => 'gb', 'en' => 'United Kingdom', 'fa' => 'انگلستان'],
+        ['href' => 'tel:+905343934352', 'display' => '+90 534-393-4352', 'flag' => 'tr', 'en' => 'Turkey', 'fa' => 'ترکیه'],
     ];
     $copy = [
         'en' => [
