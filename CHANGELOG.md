@@ -1,3 +1,12 @@
+# [1.13.0](https://github.com/moo-gh/My-Website/compare/v1.12.0...v1.13.0) (2026-10-28)
+
+
+### Features
+
+* **contact:** add Iranian phone number to contact section ([0373d8c](https://github.com/moo-gh/My-Website/commit/0373d8ccda343e940212bf99884e7ffe60165dc0))
+
+
+
 # [1.12.0](https://github.com/moo-gh/My-Website/compare/v1.11.1...v1.12.0) (2026-10-27)
 
 
@@ -31,15 +40,6 @@
 ### Bug Fixes
 
 * **contact:** add hyperlink to university name in educational qualifications for better navigation ([5354d1b](https://github.com/moo-gh/My-Website/commit/5354d1bc57ac499b19fb992206aeacad6d80dbd4))
-
-
-
-# [1.10.0](https://github.com/moo-gh/My-Website/compare/v1.9.0...v1.10.0) (2026-10-21)
-
-
-### Features
-
-* **contact:** add langauges ([8aeb289](https://github.com/moo-gh/My-Website/commit/8aeb28950c114f0b2b57e02c9ba15dc5dd82c67f))
 
 
 
