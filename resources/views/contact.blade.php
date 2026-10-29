@@ -23,6 +23,7 @@
     }
     .lang-badges {
         display: flex;
+        direction: ltr;
         gap: 0.5rem;
         margin-bottom: 1.25rem;
     }
