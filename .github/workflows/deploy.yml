@@ -18,6 +18,7 @@ jobs:
           key: ${{secrets.SSHKEY}}
           username: ${{secrets.USERNAME}}
           script: >
-            cd ${{secrets.PROJECT_PATH}} 
+            cd ${{secrets.PROJECT_PATH}}
             && git pull origin master
             && docker-compose up -d --build
+            && docker-compose exec -T mgh_app composer install --no-dev --optimize-autoloader
