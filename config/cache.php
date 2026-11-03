@@ -88,7 +88,19 @@ return [
 
     'prefix' => env(
         'CACHE_PREFIX',
-        str_slug(env('APP_NAME', 'laravel'), '_').'_cache'
+        \Illuminate\Support\Str::slug((string) env('APP_NAME', 'laravel'), '_').'_cache'
     ),
+
+    /*
+    |--------------------------------------------------------------------------
+    | Serializable Classes
+    |--------------------------------------------------------------------------
+    |
+    | Set to false to harden cache unserialization, or list classes that may
+    | be unserialized from the cache store.
+    |
+    */
+
+    'serializable_classes' => false,
 
 ];

@@ -124,7 +124,7 @@ return [
 
     'cookie' => env(
         'SESSION_COOKIE',
-        str_slug(env('APP_NAME', 'laravel'), '_').'_session'
+        \Illuminate\Support\Str::slug((string) env('APP_NAME', 'laravel'), '_').'_session'
     ),
 
     /*
@@ -193,5 +193,17 @@ return [
     */
 
     'same_site' => null,
+
+    /*
+    |--------------------------------------------------------------------------
+    | Session Serialization
+    |--------------------------------------------------------------------------
+    |
+    | Keep "php" during the Laravel 13 upgrade so existing sessions stay valid.
+    | Prefer "json" once you are comfortable forcing users to re-authenticate.
+    |
+    */
+
+    'serialization' => 'php',
 
 ];
