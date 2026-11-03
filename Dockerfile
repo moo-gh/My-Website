@@ -1,6 +1,6 @@
-FROM php:8.1-cli-alpine
+FROM php:8.2-cli-alpine
 
-RUN apk add --no-cache oniguruma-dev \
+RUN apk add --no-cache oniguruma-dev linux-headers \
     && docker-php-ext-install mbstring pdo pdo_mysql sockets
 
 COPY --from=composer:2 /usr/bin/composer /usr/bin/composer
