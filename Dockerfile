@@ -1,4 +1,4 @@
-FROM php:8.0-cli-alpine
+FROM php:8.1-cli-alpine
 
 RUN apk add --no-cache oniguruma-dev \
     && docker-php-ext-install mbstring pdo pdo_mysql sockets

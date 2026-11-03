@@ -18,9 +18,7 @@ class AppServiceProvider extends ServiceProvider
     {
         Schema::defaultStringLength(191);
 
-        if (method_exists(Paginator::class, 'useBootstrap')) {
-            Paginator::useBootstrap();
-        }
+        Paginator::useBootstrap();
 
         if (! $this->app->environment('local')) {
             URL::forceScheme('https');
